@@ -120,7 +120,7 @@ const levels = [{
   title: "Welcome to My World",
   bgColor: "bg-blue-500",
   content: "intro",
-  description: "I'm a Creative UI/UX Designer and Developer specializing in interactive experiences. Explore my journey through this gamified portfolio!",
+  description: "I'm Mahfudun Niam, a Creative UI/UX Designer and Developer specializing in interactive experiences. Explore my journey through this gamified portfolio!",
   icon: "🎮"
 }, {
   id: "education",
@@ -278,28 +278,28 @@ export default function HomePage() {
       });
     }
   };
-  return <div className="min-h-screen overflow-hidden relative" data-unique-id="31d91cf5-4dae-430a-a8a0-78c5736bab99" data-loc="286:9-286:64" data-file-name="app/page.tsx">
+  return <div className="min-h-screen overflow-hidden relative" data-unique-id="a695f81c-c147-4358-838f-9be3c55ea5f5" data-loc="281:9-281:64" data-file-name="app/page.tsx">
       {/* Sky background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-sky-300 to-sky-500 z-0" data-unique-id="2abfd4c3-7a4b-4444-a21b-c3436f4d52af" data-loc="288:6-288:85" data-file-name="app/page.tsx"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-sky-300 to-sky-500 z-0" data-unique-id="4b54092f-7630-4516-ba37-856ef2aa155e" data-loc="283:6-283:85" data-file-name="app/page.tsx"></div>
       
       {/* Game UI - Score and Level */}
-      <div className="fixed top-4 left-4 z-50 bg-yellow-800 text-white px-4 py-2 rounded-lg border-4 border-yellow-600 shadow-lg" data-unique-id="a7e9daf1-ad31-41a8-a863-2126bfd925df" data-loc="291:6-291:130" data-file-name="app/page.tsx">
-        <div className="flex items-center gap-3" data-unique-id="06def2d2-f008-4bfa-94c8-213de4a010ef" data-loc="292:8-292:49" data-file-name="app/page.tsx">
-          <div data-unique-id="71c66135-e832-4722-a2e3-845d1ffe1f8a" data-loc="293:10-293:15" data-file-name="app/page.tsx">
-            <span className="font-bold" data-unique-id="830c2069-0317-40e1-a477-8ada80fedf25" data-loc="294:12-294:40" data-file-name="app/page.tsx">SCORE:</span> {score}
+      <div className="fixed top-4 left-4 z-50 bg-yellow-800 text-white px-4 py-2 rounded-lg border-4 border-yellow-600 shadow-lg" data-unique-id="483bf769-2a6d-44b4-9a60-bfd16613c993" data-loc="286:6-286:130" data-file-name="app/page.tsx">
+        <div className="flex items-center gap-3" data-unique-id="dfbfcaf3-a3f8-4102-95ac-932d2b99194a" data-loc="287:8-287:49" data-file-name="app/page.tsx">
+          <div data-unique-id="44c1d5c4-7dbe-4859-a105-c5a721d1e5c9" data-loc="288:10-288:15" data-file-name="app/page.tsx">
+            <span className="font-bold" data-unique-id="91b91d54-ff7b-40b7-b376-903ad9b0a638" data-loc="289:12-289:40" data-file-name="app/page.tsx">SCORE:</span> {score}
           </div>
-          <div data-unique-id="d3e69c23-54d6-44c1-90e8-af7228b94c08" data-loc="296:10-296:15" data-file-name="app/page.tsx">
-            <span className="font-bold" data-unique-id="2aeef86d-821f-4f74-a14e-3abccc9436a7" data-loc="297:12-297:40" data-file-name="app/page.tsx">LEVEL:</span> {currentLevel + 1}/{levels.length}
+          <div data-unique-id="b146bcc8-0b08-4081-b976-ca88677736f5" data-loc="291:10-291:15" data-file-name="app/page.tsx">
+            <span className="font-bold" data-unique-id="18a6670d-9ab1-4b6d-b6fa-6e826e9f7144" data-loc="292:12-292:40" data-file-name="app/page.tsx">LEVEL:</span> {currentLevel + 1}/{levels.length}
           </div>
         </div>
       </div>
 
       {/* Level navigation controls */}
-      <div className="fixed top-4 right-4 z-50 flex gap-2" data-unique-id="e5165883-da3e-4b7c-9151-83fe75da18dd" data-loc="303:6-303:59" data-file-name="app/page.tsx">
-        <button onClick={goToPrevLevel} disabled={currentLevel === 0} className={`p-2 bg-yellow-500 rounded-full border-4 border-yellow-600 ${currentLevel === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-yellow-400'}`} data-unique-id="cb18fc38-ce0c-4e97-899c-df86a8573dff" data-loc="304:8-304:222" data-file-name="app/page.tsx">
+      <div className="fixed top-4 right-4 z-50 flex gap-2" data-unique-id="fc746815-0eaa-4ca5-9073-c7596a36d7d0" data-loc="298:6-298:59" data-file-name="app/page.tsx">
+        <button onClick={goToPrevLevel} disabled={currentLevel === 0} className={`p-2 bg-yellow-500 rounded-full border-4 border-yellow-600 ${currentLevel === 0 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-yellow-400'}`} data-unique-id="32c796a5-bfe7-469e-b09e-17eec59a3c09" data-loc="299:8-299:222" data-file-name="app/page.tsx">
           <ChevronLeft size={24} className="text-yellow-900" />
         </button>
-        <button onClick={goToNextLevel} disabled={currentLevel === levels.length - 1} className={`p-2 bg-yellow-500 rounded-full border-4 border-yellow-600 ${currentLevel === levels.length - 1 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-yellow-400'}`} data-unique-id="4c4b3e69-bb08-4ed6-9c14-8d061d3e588e" data-loc="307:8-307:254" data-file-name="app/page.tsx">
+        <button onClick={goToNextLevel} disabled={currentLevel === levels.length - 1} className={`p-2 bg-yellow-500 rounded-full border-4 border-yellow-600 ${currentLevel === levels.length - 1 ? 'opacity-50 cursor-not-allowed' : 'hover:bg-yellow-400'}`} data-unique-id="fed789b1-9d86-4c2d-b079-916b3fd98ea9" data-loc="302:8-302:254" data-file-name="app/page.tsx">
           <ChevronRight size={24} className="text-yellow-900" />
         </button>
       </div>
@@ -312,14 +312,14 @@ export default function HomePage() {
         opacity: 1
       }} exit={{
         opacity: 0
-      }} data-unique-id="3d3644d5-244b-4cc6-be99-a94232c0a9ce" data-loc="314:29-320:9" data-file-name="app/page.tsx">
+      }} data-unique-id="5afa297a-84f7-40b6-b50e-ce57ed6a1133" data-loc="309:29-315:9" data-file-name="app/page.tsx">
             <motion.div className="absolute inset-0 bg-black bg-opacity-70" initial={{
           opacity: 0
         }} animate={{
           opacity: 1
         }} exit={{
           opacity: 0
-        }} onClick={() => setShowInstructions(false)} data-unique-id="4835af74-1dfb-4944-99ea-2ae347981d48" data-loc="321:12-327:56" data-file-name="app/page.tsx" />
+        }} onClick={() => setShowInstructions(false)} data-unique-id="a2a08d17-f3c5-45b9-8447-f9a3b810d4ef" data-loc="316:12-322:56" data-file-name="app/page.tsx" />
             <motion.div initial={{
           scale: 0.8,
           opacity: 0,
@@ -336,7 +336,7 @@ export default function HomePage() {
           type: "spring",
           stiffness: 300,
           damping: 25
-        }} className="bg-yellow-100 p-8 rounded-xl max-w-md border-8 border-yellow-600 relative z-10" data-unique-id="bc377b0c-ebf3-4c5d-b1fa-6165310c3cbf" data-loc="328:12-344:102" data-file-name="app/page.tsx">
+        }} className="bg-yellow-100 p-8 rounded-xl max-w-md border-8 border-yellow-600 relative z-10" data-unique-id="d33add1e-50c4-4055-86a9-d522d1fe65fa" data-loc="323:12-339:102" data-file-name="app/page.tsx">
               <motion.h2 className="text-2xl font-bold text-yellow-800 mb-4" initial={{
             y: -20,
             opacity: 0
@@ -345,7 +345,7 @@ export default function HomePage() {
             opacity: 1
           }} transition={{
             delay: 0.2
-          }} data-unique-id="0e00222d-0185-49d3-8424-4bf57f53bfe3" data-loc="345:14-353:13" data-file-name="app/page.tsx">
+          }} data-unique-id="f352b867-a927-4113-95c3-667efed0a1e5" data-loc="340:14-348:13" data-file-name="app/page.tsx">
                 How to Play
               </motion.h2>
               <motion.ul className="list-disc pl-5 space-y-2 text-yellow-900" initial={{
@@ -354,7 +354,7 @@ export default function HomePage() {
             opacity: 1
           }} transition={{
             delay: 0.3
-          }} data-unique-id="a0734bfd-5ade-4430-9fa4-19b973fbef24" data-loc="356:14-362:13" data-file-name="app/page.tsx">
+          }} data-unique-id="a2d46280-843a-416b-9ab8-a3fb2dda747d" data-loc="351:14-357:13" data-file-name="app/page.tsx">
                 {["Use <strong>Left/Right Arrow Keys</strong> to move the character", "Press <strong>Up Arrow Key</strong> to jump", "Press <strong>Spacebar</strong> to advance to the next level", "Click on the <strong>Question Blocks</strong> to reveal CV information", "Collect <strong>Coins</strong> to increase your score", "Navigate between levels using the arrow buttons in the top right"].map((instruction, idx) => <motion.li key={idx} initial={{
               x: -20,
               opacity: 0
@@ -365,7 +365,7 @@ export default function HomePage() {
               delay: 0.3 + idx * 0.1
             }} dangerouslySetInnerHTML={{
               __html: instruction
-            }} data-unique-id="d129ac48-a3ec-4d49-87be-22788ed4a92e" data-loc="363:422-373:17" data-file-name="app/page.tsx" />)}
+            }} data-unique-id="6b3bf292-bc6d-4e20-a5e3-7f8a4a312b89" data-loc="358:422-368:17" data-file-name="app/page.tsx" />)}
               </motion.ul>
               <motion.button onClick={() => setShowInstructions(false)} className="mt-6 px-4 py-2 bg-yellow-500 text-yellow-900 rounded-lg font-bold hover:bg-yellow-400 border-4 border-yellow-600" whileHover={{
             scale: 1.05
@@ -379,7 +379,7 @@ export default function HomePage() {
             opacity: 1
           }} transition={{
             delay: 0.8
-          }} data-unique-id="6ba33af4-540d-403e-88af-084670acfd36" data-loc="375:14-387:13" data-file-name="app/page.tsx">
+          }} data-unique-id="b7cbf9bc-68e7-46eb-8e37-6dfe0110215c" data-loc="370:14-382:13" data-file-name="app/page.tsx">
                 Start Playing
               </motion.button>
             </motion.div>
@@ -396,15 +396,15 @@ export default function HomePage() {
           {coins.map((x, index) => <Coin key={`coin-${currentLevel}-${index}`} position={{
           x,
           y: 100 + Math.random() * 150
-        }} data-unique-id={`77ad8ee2-d3a5-4d11-9257-c16f31f1cd5b_${index}`} data-loc="401:35-404:13" data-file-name="app/page.tsx" />)}
+        }} data-unique-id={`f125c2f0-6d0c-43af-98db-51e2bb9eafad_${index}`} data-loc="396:35-399:13" data-file-name="app/page.tsx" />)}
 
           {/* Level content */}
-          <div className="absolute bottom-0 left-0 right-0 z-10" data-unique-id="c8128d18-9987-421b-b2a2-42ae75da7e9f" data-loc="407:10-407:65" data-file-name="app/page.tsx">
+          <div className="absolute bottom-0 left-0 right-0 z-10" data-unique-id="dcb149ab-fec1-45dd-bd79-23216ee4b96a" data-loc="402:10-402:65" data-file-name="app/page.tsx">
             {/* Ground platform */}
             <GamePlatform />
             
             {/* Info blocks based on level content */}
-            <div className="absolute bottom-[150px] left-0 right-0 px-8" data-unique-id="18873d25-9268-4194-b87a-099bbb98fab5" data-loc="412:12-412:73" data-file-name="app/page.tsx">
+            <div className="absolute bottom-[150px] left-0 right-0 px-8" data-unique-id="b1c12c85-19a6-4f95-9e1b-0fedf6681012" data-loc="407:12-407:73" data-file-name="app/page.tsx">
               <motion.div className="flex justify-around" initial={{
               opacity: 0,
               y: 50
@@ -415,23 +415,130 @@ export default function HomePage() {
               duration: 0.5,
               delay: 0.3,
               staggerChildren: 0.1
-            }} data-unique-id="02697e66-6010-4d0e-8aa4-625d430fe119" data-loc="413:14-423:15" data-file-name="app/page.tsx">
-                {levels[currentLevel].content === "intro" && <motion.div initial={{
-                scale: 0
-              }} animate={{
-                scale: 1
-              }} transition={{
-                type: "spring",
-                stiffness: 260,
-                damping: 20,
-                delay: 0.5
-              }} data-unique-id="64629792-329a-4a99-b7df-c2c1566f03a0" data-loc="424:61-433:17" data-file-name="app/page.tsx">
-                    <InfoBlock onClick={() => handleInfoClick({
-                  title: "Welcome to My Interactive CV!",
-                  content: "I'm a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users. My background in game design influences my approach to all digital products - making them intuitive, enjoyable, and memorable. Navigate through the levels to discover my journey!",
-                  icon: levels[currentLevel].icon
-                })} />
-                  </motion.div>}
+            }} data-unique-id="9797b127-efba-46d5-be99-c922f172fba3" data-loc="408:14-418:15" data-file-name="app/page.tsx">
+                {levels[currentLevel].content === "intro" && <div className="flex flex-col items-center gap-8" data-unique-id="e4768102-41e1-431f-a771-62c7856c11b6" data-loc="420:18-420:68" data-file-name="app/page.tsx">
+                    {/* Name with animation */}
+                    <motion.div initial={{
+                  opacity: 0,
+                  y: -50
+                }} animate={{
+                  opacity: 1,
+                  y: 0
+                }} transition={{
+                  type: "spring",
+                  stiffness: 100,
+                  damping: 10,
+                  delay: 0.2
+                }} className="relative" data-unique-id="d2b6ec01-b7ed-4d28-8aec-317c74655e31" data-loc="422:20-432:21" data-file-name="app/page.tsx">
+                      <h1 className="text-6xl font-bold text-white drop-shadow-lg tracking-wider" data-unique-id="b1d78f89-f52e-4f47-a3b4-1aa83cce9be7" data-loc="433:22-433:98" data-file-name="app/page.tsx">
+                        <motion.span initial={{
+                      opacity: 0
+                    }} animate={{
+                      opacity: 1
+                    }} transition={{
+                      delay: 0.5,
+                      duration: 0.5
+                    }} className="relative inline-block" data-unique-id="ffd73c90-69c9-4c30-91d4-ed8539e04359" data-loc="434:24-439:25" data-file-name="app/page.tsx">
+                          M
+                          <motion.span className="absolute -top-6 -right-2 text-yellow-300 text-2xl" animate={{
+                        y: [0, -10, 0],
+                        rotate: [0, 5, 0, -5, 0],
+                        scale: [1, 1.2, 1]
+                      }} transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        repeatType: "loop"
+                      }} data-unique-id="6f3cfc45-2c81-4ad7-82e8-a19891d595bd" data-loc="441:26-453:27" data-file-name="app/page.tsx">
+                            ✨
+                          </motion.span>
+                        </motion.span>
+                        <motion.span initial={{
+                      opacity: 0
+                    }} animate={{
+                      opacity: 1
+                    }} transition={{
+                      delay: 0.6,
+                      duration: 0.5
+                    }} data-unique-id="bba8785e-6ecb-472f-ae53-f5cc80640d4c" data-loc="457:24-461:25" data-file-name="app/page.tsx">
+                          ahfudun
+                        </motion.span>{" "}
+                        <motion.span initial={{
+                      opacity: 0
+                    }} animate={{
+                      opacity: 1
+                    }} transition={{
+                      delay: 0.9,
+                      duration: 0.5
+                    }} className="relative inline-block" data-unique-id="75ea37ad-d46f-4b70-adf6-740ba3bbaa70" data-loc="464:24-469:25" data-file-name="app/page.tsx">
+                          N
+                          <motion.span className="absolute -top-6 -right-2 text-yellow-300 text-2xl" animate={{
+                        y: [0, -10, 0],
+                        rotate: [0, -5, 0, 5, 0],
+                        scale: [1, 1.2, 1]
+                      }} transition={{
+                        duration: 2.5,
+                        repeat: Infinity,
+                        repeatType: "loop",
+                        delay: 0.5
+                      }} data-unique-id="214ed8f1-dfee-4c94-b6dd-8185e361d790" data-loc="471:26-484:27" data-file-name="app/page.tsx">
+                            ✨
+                          </motion.span>
+                        </motion.span>
+                        <motion.span initial={{
+                      opacity: 0
+                    }} animate={{
+                      opacity: 1
+                    }} transition={{
+                      delay: 1.0,
+                      duration: 0.5
+                    }} data-unique-id="7c6bf16e-6ef0-4d1c-89ae-2de2f59ec1d1" data-loc="488:24-492:25" data-file-name="app/page.tsx">
+                          iam
+                        </motion.span>
+                      </h1>
+                      
+                      {/* Animated underline */}
+                      <motion.div className="h-1 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 mt-2 rounded-full" initial={{
+                    width: 0
+                  }} animate={{
+                    width: "100%"
+                  }} transition={{
+                    delay: 1.2,
+                    duration: 0.8
+                  }} data-unique-id="2384b80b-305c-46da-b943-32b93767893b" data-loc="498:22-503:24" data-file-name="app/page.tsx" />
+                    </motion.div>
+                    
+                    {/* Info block with welcome message */}
+                    <motion.div initial={{
+                  scale: 0,
+                  rotate: 5
+                }} animate={{
+                  scale: 1,
+                  rotate: 0
+                }} transition={{
+                  type: "spring",
+                  stiffness: 260,
+                  damping: 20,
+                  delay: 1.5
+                }} data-unique-id="3ad1d523-57f8-4121-b88a-0c292c4f0089" data-loc="507:20-522:21" data-file-name="app/page.tsx">
+                      <InfoBlock onClick={() => handleInfoClick({
+                    title: "Welcome to My Interactive CV!",
+                    content: "I'm Mahfudun Niam, a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users. My background in game design influences my approach to all digital products - making them intuitive, enjoyable, and memorable. Navigate through the levels to discover my journey!",
+                    icon: levels[currentLevel].icon
+                  })} />
+                    </motion.div>
+                    
+                    {/* Floating arrow indicator */}
+                    <motion.div className="text-white text-4xl mt-8" animate={{
+                  y: [0, 10, 0],
+                  opacity: [0.5, 1, 0.5]
+                }} transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  repeatType: "reverse"
+                }} data-unique-id="d79bc1f8-4260-43b9-a8ac-44ab69444178" data-loc="531:20-542:21" data-file-name="app/page.tsx">
+                      ↓
+                    </motion.div>
+                  </div>}
                 
                 {levels[currentLevel].content === "education" && cvData.education.map((edu, idx) => <motion.div key={edu.id} initial={{
                 scale: 0
@@ -442,13 +549,13 @@ export default function HomePage() {
                 stiffness: 260,
                 damping: 20,
                 delay: 0.2 + idx * 0.15
-              }} data-unique-id="d45c0821-0faa-4786-a4c9-72c0bd489241" data-loc="441:100-450:17" data-file-name="app/page.tsx">
+              }} data-unique-id="911a0bb9-65b4-41d8-b1e6-69768b47d797" data-loc="548:100-557:17" data-file-name="app/page.tsx">
                     <InfoBlock onClick={() => handleInfoClick({
                   title: edu.degree,
                   institution: edu.institution,
                   year: edu.year,
                   description: edu.description
-                })} data-unique-id={`ac15e362-ab7f-4027-b2dc-dab149375b71_${idx}`} data-loc="451:20-456:22" data-file-name="app/page.tsx" />
+                })} data-unique-id={`02330a9c-d484-4858-81ec-1030be5e6191_${idx}`} data-loc="558:20-563:22" data-file-name="app/page.tsx" />
                   </motion.div>)}
                 
                 {levels[currentLevel].content === "experience" && cvData.experience.map((exp, idx) => <motion.div key={exp.id} initial={{
@@ -461,16 +568,16 @@ export default function HomePage() {
                 type: "spring",
                 stiffness: 100,
                 delay: 0.2 + idx * 0.15
-              }} data-unique-id="803b4ef6-2eaf-46a3-9c6c-5c9c1d5ee189" data-loc="459:102-469:17" data-file-name="app/page.tsx">
+              }} data-unique-id="7828050e-d7a4-4ec8-8205-c9ec3851c9e7" data-loc="566:102-576:17" data-file-name="app/page.tsx">
                     <InfoBlock onClick={() => handleInfoClick({
                   title: exp.role,
                   company: exp.company,
                   year: exp.year,
                   description: exp.description
-                })} data-unique-id={`24f9d214-bc86-4fbf-8459-67d994d6364d_${idx}`} data-loc="470:20-475:22" data-file-name="app/page.tsx" />
+                })} data-unique-id={`29426189-6749-4c08-b096-d425d8b61cda_${idx}`} data-loc="577:20-582:22" data-file-name="app/page.tsx" />
                   </motion.div>)}
                 
-                {levels[currentLevel].content === "skills" && <div className="flex flex-wrap justify-center gap-8 w-full" data-unique-id="89c1cc51-725c-4bca-b158-70c89999bec9" data-loc="479:18-479:78" data-file-name="app/page.tsx">
+                {levels[currentLevel].content === "skills" && <div className="flex flex-wrap justify-center gap-8 w-full" data-unique-id="45b0bab1-15e7-48cf-856c-8b814af60665" data-loc="585:62-585:122" data-file-name="app/page.tsx">
                     {[{
                   title: "Design",
                   skills: cvData.skills.slice(0, 4)
@@ -492,12 +599,12 @@ export default function HomePage() {
                 }} transition={{
                   duration: 0.5,
                   delay: 0.3 + idx * 0.1
-                }} data-unique-id="53b74c0e-76b6-4ad2-8f04-84571102df48" data-loc="486:22-491:23" data-file-name="app/page.tsx">
+                }} data-unique-id="b20b9b01-48d5-494a-ba5f-99e2f002ec17" data-loc="598:42-607:19" data-file-name="app/page.tsx">
                         <InfoBlock onClick={() => handleInfoClick({
                     title: `${category.title} Skills`,
                     content: category.skills,
                     icon: levels[currentLevel].icon
-                  })} data-unique-id={`750f41a6-61fe-461e-aadd-566c8a8fedd5_${idx}`} data-loc="492:24-496:30" data-file-name="app/page.tsx" />
+                  })} data-unique-id={`edac17b6-755a-4a23-9d28-51b81c87a52f_${idx}`} data-loc="608:24-612:24" data-file-name="app/page.tsx" />
                       </motion.div>)}
                   </div>}
                 
@@ -511,7 +618,7 @@ export default function HomePage() {
                 type: "spring",
                 stiffness: 100,
                 delay: 0.2 + idx * 0.15
-              }} data-unique-id="906937eb-e7de-4f73-9d7e-8d4048dfd90b" data-loc="502:104-512:17" data-file-name="app/page.tsx">
+              }} data-unique-id="db64f964-88a3-4539-befc-710c04d4e0c7" data-loc="616:104-626:17" data-file-name="app/page.tsx">
                     <InfoBlock onClick={() => handleInfoClick({
                   title: project.title,
                   description: project.description,
@@ -519,7 +626,7 @@ export default function HomePage() {
                   link: project.link,
                   image: project.image,
                   icon: levels[currentLevel].icon
-                })} data-unique-id={`1bc5a3aa-f0d7-4acc-9595-3c076e717789_${idx}`} data-loc="513:20-520:22" data-file-name="app/page.tsx" />
+                })} data-unique-id={`60a9c369-8b58-472f-aece-4323fcd1d1d3_${idx}`} data-loc="627:20-634:22" data-file-name="app/page.tsx" />
                   </motion.div>)}
                 
                 {levels[currentLevel].content === "achievements" && cvData.achievements.map((achievement, idx) => <motion.div key={achievement.id} initial={{
@@ -532,14 +639,14 @@ export default function HomePage() {
                 type: "spring",
                 stiffness: 100,
                 delay: 0.2 + idx * 0.15
-              }} data-unique-id="6527a671-2a11-4c98-beae-b907e4377f4b" data-loc="524:18-539:19" data-file-name="app/page.tsx">
+              }} data-unique-id="fa2a230b-c7b0-4655-8ea2-35dd7a2a350b" data-loc="637:114-647:17" data-file-name="app/page.tsx">
                     <InfoBlock onClick={() => handleInfoClick({
                   title: achievement.title,
                   organization: achievement.organization,
                   year: achievement.year,
                   description: achievement.description,
                   icon: levels[currentLevel].icon
-                })} data-unique-id={`6329c21c-e4e7-426f-aa90-e3b44edf5ae3_${idx}`} data-loc="540:20-546:26" data-file-name="app/page.tsx" />
+                })} data-unique-id={`8ed7fda5-969b-455b-8a9f-42a10e87b1e0_${idx}`} data-loc="648:20-654:22" data-file-name="app/page.tsx" />
                   </motion.div>)}
               </motion.div>
             </div>
@@ -557,14 +664,14 @@ export default function HomePage() {
         opacity: 0
       }} transition={{
         duration: 0.3
-      }} data-unique-id="8b6aa160-2510-4479-81a9-d25895177069" data-loc="557:22-565:9" data-file-name="app/page.tsx">
+      }} data-unique-id="741422de-818c-4251-96f2-4da9fefdf6f1" data-loc="664:22-672:9" data-file-name="app/page.tsx">
             <motion.div className="absolute inset-0 bg-black bg-opacity-70" initial={{
           opacity: 0
         }} animate={{
           opacity: 1
         }} exit={{
           opacity: 0
-        }} onClick={() => setShowModal(false)} data-unique-id="74976b99-2155-4320-9d3f-93de2609e4bb" data-loc="566:12-572:49" data-file-name="app/page.tsx" />
+        }} onClick={() => setShowModal(false)} data-unique-id="17316e37-7ad2-4334-9807-a079875511ad" data-loc="673:12-679:49" data-file-name="app/page.tsx" />
             <motion.div initial={{
           scale: 0.8,
           y: 50,
@@ -581,8 +688,8 @@ export default function HomePage() {
           type: "spring",
           stiffness: 300,
           damping: 25
-        }} className="bg-yellow-100 p-6 rounded-xl max-w-md w-full mx-4 border-8 border-yellow-600 relative z-10" data-unique-id="7690bd92-c996-4e20-a258-81a45c66d5d4" data-loc="573:12-589:114" data-file-name="app/page.tsx">
-              <div className="flex justify-between items-center mb-4" data-unique-id="9891e3a3-6a56-4a01-9243-806c3f5704ca" data-loc="590:14-590:70" data-file-name="app/page.tsx">
+        }} className="bg-yellow-100 p-6 rounded-xl max-w-md w-full mx-4 border-8 border-yellow-600 relative z-10" data-unique-id="04c2f729-5d8f-4c62-a359-204f470de315" data-loc="680:12-696:114" data-file-name="app/page.tsx">
+              <div className="flex justify-between items-center mb-4" data-unique-id="c1e513b9-52a7-4ed1-a713-1ed91281abc8" data-loc="697:14-697:70" data-file-name="app/page.tsx">
                 <motion.h2 className="text-2xl font-bold text-yellow-800" initial={{
               x: -20,
               opacity: 0
@@ -591,7 +698,7 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.2
-            }} data-unique-id="aa19eb55-2141-44dc-95f1-1b3c54fd257e" data-loc="591:16-599:15" data-file-name="app/page.tsx">
+            }} data-unique-id="3d0f9887-5d34-4e99-859e-81daf15fe860" data-loc="698:16-706:15" data-file-name="app/page.tsx">
                   {modalContent.title}
                 </motion.h2>
                 <motion.button whileHover={{
@@ -599,7 +706,7 @@ export default function HomePage() {
               rotate: 90
             }} whileTap={{
               scale: 0.9
-            }} onClick={() => setShowModal(false)} className="text-yellow-800 hover:text-yellow-600" data-unique-id="87db8ad5-c29b-4f85-b170-4b9e5b8ae185" data-loc="602:16-607:101" data-file-name="app/page.tsx">
+            }} onClick={() => setShowModal(false)} className="text-yellow-800 hover:text-yellow-600" data-unique-id="cf010ebb-75ea-4da8-b8db-b3de3f718ad4" data-loc="709:16-714:101" data-file-name="app/page.tsx">
                   <X size={24} />
                 </motion.button>
               </div>
@@ -610,7 +717,7 @@ export default function HomePage() {
             opacity: 1
           }} transition={{
             delay: 0.3
-          }} data-unique-id="aaddb58b-5305-4b50-8b34-f4fdf4ae851b" data-loc="612:14-618:13" data-file-name="app/page.tsx">
+          }} data-unique-id="c57bf298-4ea0-4858-85e0-dc39d2d163b5" data-loc="719:14-725:13" data-file-name="app/page.tsx">
                 {modalContent.icon && <motion.div className="text-4xl mb-2 text-center" initial={{
               scale: 0
             }} animate={{
@@ -619,7 +726,7 @@ export default function HomePage() {
             }} transition={{
               duration: 0.5,
               delay: 0.2
-            }} data-unique-id="191ca4c9-b097-4d9e-ba6b-df94828ac6a9" data-loc="619:38-624:17" data-file-name="app/page.tsx">
+            }} data-unique-id="1fde82bb-db56-4739-8aec-a1a7c085efcd" data-loc="726:38-734:15" data-file-name="app/page.tsx">
                   {modalContent.icon}
                 </motion.div>}
                 
@@ -631,8 +738,8 @@ export default function HomePage() {
               scale: 1
             }} transition={{
               delay: 0.25
-            }} data-unique-id="60d38f0a-6baf-4bc4-b412-0f5eb7a603e4" data-loc="629:18-634:19" data-file-name="app/page.tsx">
-                    <span className="text-yellow-800 text-sm font-medium" data-unique-id="25670490-d5ce-46cc-af19-1076a60f6d3e" data-loc="635:20-635:74" data-file-name="app/page.tsx">{modalContent.organization}</span>
+            }} data-unique-id="a3b95051-6538-4966-b89d-42f92fbac5f6" data-loc="738:46-746:15" data-file-name="app/page.tsx">
+                    <span className="text-yellow-800 text-sm font-medium" data-unique-id="6a6e6060-23a2-4e8a-86df-3fc84f99f493" data-loc="747:20-747:74" data-file-name="app/page.tsx">{modalContent.organization}</span>
                   </motion.div>}
                 
                 {modalContent.image && <motion.div className="mb-4 rounded-lg overflow-hidden" initial={{
@@ -643,8 +750,8 @@ export default function HomePage() {
               y: 0
             }} transition={{
               delay: 0.25
-            }} data-unique-id="2cbc1b2d-e6f6-4beb-9f8d-408f3860eccc" data-loc="639:39-644:17" data-file-name="app/page.tsx">
-                  <img src={modalContent.image} alt={modalContent.title} className="w-full h-48 object-cover" data-unique-id="48b6449b-0613-4311-ac5c-81adb39e543b" data-loc="645:18-649:20" data-file-name="app/page.tsx" />
+            }} data-unique-id="fe905b30-ab70-4c80-b3b3-5b9aa44de992" data-loc="750:39-758:15" data-file-name="app/page.tsx">
+                  <img src={modalContent.image} alt={modalContent.title} className="w-full h-48 object-cover" data-unique-id="b3f61c44-d8cf-475c-9d4e-9adce216bc3c" data-loc="759:18-759:112" data-file-name="app/page.tsx" />
                 </motion.div>}
                 
                 {modalContent.institution && <motion.p className="text-yellow-900" initial={{
@@ -655,8 +762,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.3
-            }} data-unique-id="757c02ad-53e7-410d-90b7-ac8c59fbb1e0" data-loc="652:45-660:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="c81bdfa3-770c-4263-8f72-0b0743d084fc" data-loc="661:20-661:28" data-file-name="app/page.tsx">Institution:</strong> {modalContent.institution}
+            }} data-unique-id="428a8266-1750-411d-9513-f47ac52aa5ac" data-loc="762:45-770:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="28e7afa0-23ac-4edf-ab4c-eced3534b951" data-loc="771:20-771:28" data-file-name="app/page.tsx">Institution:</strong> {modalContent.institution}
                   </motion.p>}
                 {modalContent.company && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -666,8 +773,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.35
-            }} data-unique-id="a500b3da-5fe6-4dee-ab3e-616399cbdf66" data-loc="663:41-671:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="7f8f37de-b8ba-49c1-8acb-be122a596af0" data-loc="672:20-672:28" data-file-name="app/page.tsx">Company:</strong> {modalContent.company}
+            }} data-unique-id="5abaef3f-f2b5-4a26-8abd-acf5254e5344" data-loc="773:41-781:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="ee29d450-a73a-4ed9-b6fe-121e2235f6c4" data-loc="782:20-782:28" data-file-name="app/page.tsx">Company:</strong> {modalContent.company}
                   </motion.p>}
                 {modalContent.year && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -677,8 +784,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.4
-            }} data-unique-id="7f843140-2a63-4bb4-ae82-b70bc16aa91f" data-loc="674:38-682:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="80a40431-e196-4366-95a0-1db2acfa4598" data-loc="683:20-683:28" data-file-name="app/page.tsx">Period:</strong> {modalContent.year}
+            }} data-unique-id="e79677e7-84af-4d88-9102-0520ce212537" data-loc="784:38-792:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="79035015-fa67-499b-8d15-d69e22de15f5" data-loc="793:20-793:28" data-file-name="app/page.tsx">Period:</strong> {modalContent.year}
                   </motion.p>}
                 {modalContent.description && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -688,8 +795,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.45
-            }} data-unique-id="61e236e0-d7f9-4249-b970-c91b5d98bb22" data-loc="685:45-693:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="7ac5c4f7-d6d7-44da-b90f-5f83d0837952" data-loc="694:20-694:28" data-file-name="app/page.tsx">Description:</strong> {modalContent.description}
+            }} data-unique-id="e5b7e874-183a-428e-b492-52c22d7ea82c" data-loc="795:45-803:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="2c844894-91f0-4219-87e8-60500d7dda41" data-loc="804:20-804:28" data-file-name="app/page.tsx">Description:</strong> {modalContent.description}
                   </motion.p>}
                 {modalContent.technologies && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -699,8 +806,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.5
-            }} data-unique-id="35bd2ac7-7ed0-4360-a996-b735f3c20db2" data-loc="696:46-704:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="663f5879-177c-4cd2-ad25-a24128c8d1a4" data-loc="705:20-705:28" data-file-name="app/page.tsx">Technologies:</strong> {modalContent.technologies}
+            }} data-unique-id="bf16e33f-164f-41e5-b310-e295cc730d5e" data-loc="806:46-814:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="531977da-82d9-4f08-8a55-baa6f359414f" data-loc="815:20-815:28" data-file-name="app/page.tsx">Technologies:</strong> {modalContent.technologies}
                   </motion.p>}
                 {modalContent.link && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -710,8 +817,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.52
-            }} data-unique-id="59415de8-64f9-44f3-bb50-c551b1fb8431" data-loc="707:38-715:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="4b99ba6d-02e0-4a05-ba2d-2474be4cc074" data-loc="716:20-716:28" data-file-name="app/page.tsx">Project Link:</strong> <a href={`https://${modalContent.link}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="b14a1714-bacc-458a-a16c-39e2ff0c51e9" data-loc="716:51-716:176" data-file-name="app/page.tsx">{modalContent.link}</a>
+            }} data-unique-id="8f034db3-24f5-484e-aa39-a8be9f70f4cc" data-loc="817:38-825:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="5f4cc6f1-5346-48c2-a99f-c66e6f47cd06" data-loc="826:20-826:28" data-file-name="app/page.tsx">Project Link:</strong> <a href={`https://${modalContent.link}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="c48d43cd-80aa-497d-a131-73ab224f7dd8" data-loc="826:51-826:176" data-file-name="app/page.tsx">{modalContent.link}</a>
                   </motion.p>}
                 {modalContent.email && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -721,8 +828,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.55
-            }} data-unique-id="a088f785-6a30-44cd-81c7-ea10b53570eb" data-loc="718:39-726:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="30a78891-650c-40dc-ae44-6b11307db43e" data-loc="727:20-727:28" data-file-name="app/page.tsx">Email:</strong> {modalContent.email}
+            }} data-unique-id="e1b8af6a-7409-4020-8ffa-94c02f2ad156" data-loc="828:39-836:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="4ff9e376-1554-4452-9e95-2244eef161ea" data-loc="837:20-837:28" data-file-name="app/page.tsx">Email:</strong> {modalContent.email}
                   </motion.p>}
                 {modalContent.phone && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -732,8 +839,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.6
-            }} data-unique-id="b926230e-1e04-4575-866e-a7f230a56f60" data-loc="729:39-737:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="31d1b11b-c60c-4db1-9b05-e504436b84fd" data-loc="738:20-738:28" data-file-name="app/page.tsx">Phone:</strong> {modalContent.phone}
+            }} data-unique-id="3e8dbeb6-4a5c-4381-83cc-0f728fdc4d01" data-loc="839:39-847:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="d9e82a68-6d77-4374-b506-5df190bce2dd" data-loc="848:20-848:28" data-file-name="app/page.tsx">Phone:</strong> {modalContent.phone}
                   </motion.p>}
                 {modalContent.linkedin && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -743,8 +850,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.65
-            }} data-unique-id="5ccf9a01-c08a-4375-a1d4-e05314ce1ae6" data-loc="740:42-748:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="4f3056b3-a1e6-4280-a948-a1a3b3d40817" data-loc="749:20-749:28" data-file-name="app/page.tsx">LinkedIn:</strong> <a href={`https://${modalContent.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="f38fc2a3-f5dd-4b3b-9f18-0ac2941e13a8" data-loc="749:47-749:176" data-file-name="app/page.tsx">{modalContent.linkedin}</a>
+            }} data-unique-id="eb79d814-9f65-4f88-9d4b-d5f5cd12abf6" data-loc="850:42-858:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="90f86a08-ae4f-4980-b10b-b96678cd9a5e" data-loc="859:20-859:28" data-file-name="app/page.tsx">LinkedIn:</strong> <a href={`https://${modalContent.linkedin}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="30365454-dc1b-4d09-b705-a3a8e9cb5dea" data-loc="859:47-859:176" data-file-name="app/page.tsx">{modalContent.linkedin}</a>
                   </motion.p>}
                 {modalContent.github && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -754,8 +861,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.7
-            }} data-unique-id="0f636fb2-8ff9-4e78-b937-a9391e1f8753" data-loc="751:40-759:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="a479e46f-6275-45db-8122-e3001a82f7d0" data-loc="760:20-760:28" data-file-name="app/page.tsx">GitHub:</strong> <a href={`https://${modalContent.github}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="56fc636b-675a-4f11-b696-a94af5ccb35e" data-loc="760:45-760:172" data-file-name="app/page.tsx">{modalContent.github}</a>
+            }} data-unique-id="107dc686-ad67-42a3-8222-5f5903f21d05" data-loc="861:40-869:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="8016a324-1dd2-41f0-a407-35ca5abbdedf" data-loc="870:20-870:28" data-file-name="app/page.tsx">GitHub:</strong> <a href={`https://${modalContent.github}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="61218e70-40bd-4eb0-a7a6-cfb1782ddba5" data-loc="870:45-870:172" data-file-name="app/page.tsx">{modalContent.github}</a>
                   </motion.p>}
                 {modalContent.portfolio && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -765,8 +872,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.75
-            }} data-unique-id="a7f64aa7-871d-4a71-9518-a876978390f4" data-loc="762:43-770:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="735ab9ff-410b-4812-94e7-a4ea2ef3eda7" data-loc="771:20-771:28" data-file-name="app/page.tsx">Portfolio:</strong> <a href={`https://${modalContent.portfolio}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="1b3fbded-cbf8-417c-af0d-aceda4a90adf" data-loc="771:48-771:178" data-file-name="app/page.tsx">{modalContent.portfolio}</a>
+            }} data-unique-id="88dc8b00-0fba-452c-a425-02de48e8c5b9" data-loc="872:43-880:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="31b7808e-7cbc-4de8-8168-6ac8bffbb5cf" data-loc="881:20-881:28" data-file-name="app/page.tsx">Portfolio:</strong> <a href={`https://${modalContent.portfolio}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="9273538d-d032-4e2b-a25d-8ef0ab3d4ad3" data-loc="881:48-881:178" data-file-name="app/page.tsx">{modalContent.portfolio}</a>
                   </motion.p>}
                 {modalContent.twitter && <motion.p className="text-yellow-900" initial={{
               y: 10,
@@ -776,8 +883,8 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.8
-            }} data-unique-id="28d7613a-e54e-4d84-8e95-27acdb9810e2" data-loc="773:41-781:15" data-file-name="app/page.tsx">
-                    <strong data-unique-id="ff83fd05-e4f1-453a-a2ce-a9894c163dd3" data-loc="782:20-782:28" data-file-name="app/page.tsx">Twitter:</strong> <a href={`https://twitter.com/${modalContent.twitter.replace('@', '')}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="53ca831b-82c8-4627-b8b9-d19411556538" data-loc="782:46-782:203" data-file-name="app/page.tsx">{modalContent.twitter}</a>
+            }} data-unique-id="edc6c0b8-571f-4662-86dc-cd74817b389e" data-loc="883:41-891:15" data-file-name="app/page.tsx">
+                    <strong data-unique-id="37ee2833-af95-4d71-b60a-5fa77647e817" data-loc="892:20-892:28" data-file-name="app/page.tsx">Twitter:</strong> <a href={`https://twitter.com/${modalContent.twitter.replace('@', '')}`} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" data-unique-id="da957b7f-754c-4f69-a110-3d1dbfa88c05" data-loc="892:46-892:203" data-file-name="app/page.tsx">{modalContent.twitter}</a>
                   </motion.p>}
                 {modalContent.content && Array.isArray(modalContent.content) ? <motion.div initial={{
               y: 10,
@@ -787,15 +894,15 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.5
-            }} data-unique-id="6f31aa17-ce5f-432f-8a44-e19bd2479eb8" data-loc="784:79-792:15" data-file-name="app/page.tsx">
-                    <strong className="text-yellow-900" data-unique-id="b4697a77-8ea1-4dba-8f45-dcc579a36023" data-loc="793:20-793:56" data-file-name="app/page.tsx">Skills:</strong>
+            }} data-unique-id="0032eac4-2967-4d96-8426-87f70e4cce87" data-loc="894:79-902:15" data-file-name="app/page.tsx">
+                    <strong className="text-yellow-900" data-unique-id="f086845c-b81b-4586-b5c1-76f8c0d12d53" data-loc="903:20-903:56" data-file-name="app/page.tsx">Skills:</strong>
                     <motion.div className="flex flex-wrap gap-2 mt-2" initial={{
                 opacity: 0
               }} animate={{
                 opacity: 1
               }} transition={{
                 delay: 0.6
-              }} data-unique-id="c1e4ff27-5c88-471d-9602-059c1a1ec8ec" data-loc="794:20-800:17" data-file-name="app/page.tsx">
+              }} data-unique-id="421364e1-c3d4-4cd0-9730-db33fc443200" data-loc="904:20-910:17" data-file-name="app/page.tsx">
                       {modalContent.content.map((skill: string, idx: number) => <motion.span key={idx} className="bg-yellow-500 text-yellow-900 px-2 py-1 rounded text-sm font-medium" initial={{
                   scale: 0
                 }} animate={{
@@ -804,7 +911,7 @@ export default function HomePage() {
                   delay: 0.6 + idx * 0.05,
                   type: "spring",
                   stiffness: 300
-                }} data-unique-id="bd6bab83-6a3a-4830-b881-c7b1b38e069a" data-loc="801:80-809:19" data-file-name="app/page.tsx">
+                }} data-unique-id="0b69f956-bcb8-4936-9128-87182a3a2cb8" data-loc="911:80-919:19" data-file-name="app/page.tsx">
                           {skill}
                         </motion.span>)}
                     </motion.div>
@@ -816,7 +923,7 @@ export default function HomePage() {
               opacity: 1
             }} transition={{
               delay: 0.5
-            }} data-unique-id="ecec85a1-d27a-4f4d-bbe6-c93ad3eae431" data-loc="813:57-821:15" data-file-name="app/page.tsx">
+            }} data-unique-id="63e11fc8-5582-4a0b-8858-db921ba040c4" data-loc="923:57-931:15" data-file-name="app/page.tsx">
                     {modalContent.content}
                   </motion.p> : null}
               </motion.div>
@@ -831,7 +938,7 @@ export default function HomePage() {
             opacity: 1
           }} transition={{
             delay: 0.7
-          }} data-unique-id="27d10a82-723e-41f9-abff-d2f54a7992e7" data-loc="826:14-836:13" data-file-name="app/page.tsx">
+          }} data-unique-id="69c64961-68be-40c4-a877-d58e278ff4f4" data-loc="936:14-946:13" data-file-name="app/page.tsx">
                 Close
               </motion.button>
             </motion.div>
@@ -839,9 +946,9 @@ export default function HomePage() {
       </AnimatePresence>
 
       {/* Game controls hint */}
-      <div className="fixed bottom-4 left-4 bg-yellow-800 bg-opacity-80 text-white px-4 py-2 rounded-lg text-sm z-40" data-unique-id="6aefd130-1d79-40fa-ae06-5749a0f0254e" data-loc="844:6-844:118" data-file-name="app/page.tsx">
-        <p data-unique-id="d26f3e29-21e7-4e3b-a102-859f255c8690" data-loc="845:8-845:11" data-file-name="app/page.tsx">Controls: ← → to move | ↑ to jump | Space to advance level</p>
-        <button onClick={() => setShowInstructions(true)} className="underline hover:text-yellow-200" data-unique-id="b59a7ea5-1e32-4c45-8ac0-5dbd7e4d6484" data-loc="846:8-846:102" data-file-name="app/page.tsx">
+      <div className="fixed bottom-4 left-4 bg-yellow-800 bg-opacity-80 text-white px-4 py-2 rounded-lg text-sm z-40" data-unique-id="eb8d50a4-6ac5-4a2e-81e8-522513e1ae17" data-loc="954:6-954:118" data-file-name="app/page.tsx">
+        <p data-unique-id="eef52f85-e87e-47cc-bbeb-e57cd3cbdcc3" data-loc="955:8-955:11" data-file-name="app/page.tsx">Controls: ← → to move | ↑ to jump | Space to advance level</p>
+        <button onClick={() => setShowInstructions(true)} className="underline hover:text-yellow-200" data-unique-id="7a0a8593-40cd-4b29-8511-e0a139fcae7d" data-loc="956:8-956:102" data-file-name="app/page.tsx">
           Show Instructions
         </button>
       </div>

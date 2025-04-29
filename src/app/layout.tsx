@@ -55,7 +55,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return <html lang="en" className={`${GeistSans.variable}`} data-unique-id="7cf15f1c-c459-4531-a5d1-0b1a4ecf1165" data-loc="58:9-58:61" data-file-name="app/layout.tsx">
-      <body className="overflow-hidden" data-unique-id="b141efe7-8983-483a-9fe7-d99963ee00c4" data-loc="59:6-59:40" data-file-name="app/layout.tsx">{children}</body>
+  return <html lang="en" className={`${GeistSans.variable}`} data-unique-id="0a28d416-fc25-4d21-8f3c-9bb32dfca9c3" data-loc="58:9-58:61" data-file-name="app/layout.tsx">
+      <body className="overflow-hidden" data-unique-id="263a5a66-e82d-4057-99e2-097ff2d18d45" data-loc="59:6-59:40" data-file-name="app/layout.tsx">{children}</body>
     </html>;
 }

@@ -93,9 +93,9 @@ export default function InfoBlock({
       }
     }
   };
-  return <motion.div whileHover="hover" whileTap="tap" animate={isClicked ? "clicked" : isFloating ? "float" : "rest"} variants={blockVariants} className="relative cursor-pointer" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={handleClick} data-unique-id="5e288b1f-6c87-4a0e-ace3-c3552b1c1fd4" data-loc="96:9-96:283" data-file-name="components/InfoBlock.tsx">
+  return <motion.div whileHover="hover" whileTap="tap" animate={isClicked ? "clicked" : isFloating ? "float" : "rest"} variants={blockVariants} className="relative cursor-pointer" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} onClick={handleClick} data-unique-id="acc2c964-e06b-42ed-90c5-a8ca676ec310" data-loc="96:9-96:283" data-file-name="components/InfoBlock.tsx">
       {/* Question mark block with enhanced styling */}
-      <div className="w-16 h-16 bg-[#E8A010] border-4 border-b-[#986008] border-r-[#986008] border-t-[#FFD068] border-l-[#FFD068] rounded-lg flex items-center justify-center overflow-hidden relative" data-unique-id="65dca4b6-4d93-487f-8af1-97e6300f38a1" data-loc="98:6-98:200" data-file-name="components/InfoBlock.tsx">
+      <div className="w-16 h-16 bg-[#E8A010] border-4 border-b-[#986008] border-r-[#986008] border-t-[#FFD068] border-l-[#FFD068] rounded-lg flex items-center justify-center overflow-hidden relative" data-unique-id="8cac1a13-edac-4bfa-b81d-7ab7f296624d" data-loc="98:6-98:200" data-file-name="components/InfoBlock.tsx">
         {/* Animated background pattern */}
         <motion.div className="absolute inset-0 opacity-20" style={{
         backgroundImage: "linear-gradient(45deg, #986008 25%, transparent 25%, transparent 50%, #986008 50%, #986008 75%, transparent 75%, transparent)",
@@ -106,10 +106,10 @@ export default function InfoBlock({
         duration: 1,
         repeat: Infinity,
         ease: "linear"
-      }} data-unique-id="c270d00f-6b2d-487f-a18a-36022689952e" data-loc="100:8-109:11" data-file-name="components/InfoBlock.tsx" />
+      }} data-unique-id="873e5aec-bc5b-46fa-9354-3d171c6170b2" data-loc="100:8-109:11" data-file-name="components/InfoBlock.tsx" />
         
         {/* Animated question mark */}
-        <motion.span className="text-white text-2xl font-bold relative z-10" variants={questionMarkVariants} data-unique-id="4e4e721d-b5b1-4ca5-afa3-ca2e1cd61856" data-loc="112:8-112:109" data-file-name="components/InfoBlock.tsx">
+        <motion.span className="text-white text-2xl font-bold relative z-10" variants={questionMarkVariants} data-unique-id="9677b7a2-dff1-4580-bd9f-7351d48eedef" data-loc="112:8-112:109" data-file-name="components/InfoBlock.tsx">
           ?
         </motion.span>
         
@@ -127,12 +127,12 @@ export default function InfoBlock({
         height: "50%",
         transform: "rotate(45deg)",
         filter: "blur(5px)"
-      }} data-unique-id="981fd28f-77fa-4525-9485-8b555dcf769d" data-loc="117:8-130:11" data-file-name="components/InfoBlock.tsx" />
+      }} data-unique-id="97dc9baf-f2f1-4a1d-ab1b-09fed60aa841" data-loc="117:8-130:11" data-file-name="components/InfoBlock.tsx" />
       </div>
       
       {/* Hover tooltip with animation */}
       <AnimatePresence>
-        {isHovered && <motion.div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded whitespace-nowrap" variants={tooltipVariants} initial="hidden" animate="visible" exit="hidden" data-unique-id="b8e1b853-774c-4f36-9035-afd49870a1c6" data-loc="135:22-135:253" data-file-name="components/InfoBlock.tsx">
+        {isHovered && <motion.div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-70 text-white text-xs px-2 py-1 rounded whitespace-nowrap" variants={tooltipVariants} initial="hidden" animate="visible" exit="hidden" data-unique-id="1d6ac32b-1971-489d-b502-07f269c2d8c7" data-loc="135:22-135:253" data-file-name="components/InfoBlock.tsx">
             Click for info
           </motion.div>}
       </AnimatePresence>
