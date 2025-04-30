@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     template: "%s | Game CV"
   },
   description: "An interactive CV inspired by classic video games, allowing you to navigate through different sections like education, experience, and skills in a fun, engaging way.",
-  applicationName: "Game CV",
+  applicationName: "My Profile By KangNi",
   keywords: ["cv", "resume", "mario", "interactive", "game", "portfolio", "creative", "designer", "developer", "ui/ux"],
   authors: [{
-    name: "Creative Designer"
+    name: "Mahfudun Niam"
   }],
-  creator: "Creative Designer",
-  publisher: "Creative Designer",
+  creator: "X-Jaga Dev",
+  publisher: "KangNi",
   icons: {
     icon: [{
       url: "/favicon-16x16.png",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Mario CV"
+    title: "KangNi"
   },
   formatDetection: {
     telephone: false
