@@ -32,7 +32,7 @@ const cvData = {
   }],
   experience: [{
     id: 1,
-    role: "Senior UI/UX Designer",
+    role: "Junior UI/UX Designer",
     company: "GameCraft Studios",
     year: "2021-Present",
     description: "Lead designer for award-winning mobile games with over 5 million downloads. Implemented gamification elements that increased user retention by 45%."
