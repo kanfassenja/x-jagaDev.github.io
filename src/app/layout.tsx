@@ -9,7 +9,7 @@ export const viewport = {
 };
 export const metadata: Metadata = {
   title: {
-    default: "Interactive Game CV - Creative Portfolio",
+    default: "KangNi - Creative Portfolio",
     template: "%s | Game CV"
   },
   description: "An interactive CV inspired by classic video games, allowing you to navigate through different sections like education, experience, and skills in a fun, engaging way.",
