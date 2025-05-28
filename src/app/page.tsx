@@ -16,7 +16,7 @@ const cvData = {
     degree: "Master of Interactive Media",
     institution: "Digital Arts University",
     year: "2019-2021",
-    description: "Graduated with honors. Thesis on 'Gamification in User Experience Design'. Received the Innovation Award for creative digital solutions."
+    description: "Graduated with honors. Thesis on 'Gamification in User Experience Design'. Received the Innovation Award for creative digital solutiaons."
   }, {
     id: 2,
     degree: "Bachelor of Computer Science",
@@ -460,7 +460,7 @@ export default function HomePage() {
                       delay: 0.6,
                       duration: 0.5
                     }} data-unique-id="bba8785e-6ecb-472f-ae53-f5cc80640d4c" data-loc="457:24-461:25" data-file-name="app/page.tsx">
-                          ahfudun
+                          Niam
                         </motion.span>{" "}
                         <motion.span initial={{
                       opacity: 0
@@ -470,7 +470,7 @@ export default function HomePage() {
                       delay: 0.9,
                       duration: 0.5
                     }} className="relative inline-block" data-unique-id="75ea37ad-d46f-4b70-adf6-740ba3bbaa70" data-loc="464:24-469:25" data-file-name="app/page.tsx">
-                          N
+                          (X-Jaga Dev)
                           <motion.span className="absolute -top-6 -right-2 text-yellow-300 text-2xl" animate={{
                         y: [0, -10, 0],
                         rotate: [0, -5, 0, 5, 0],
