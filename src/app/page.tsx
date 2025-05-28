@@ -439,7 +439,7 @@ export default function HomePage() {
                       delay: 0.5,
                       duration: 0.5
                     }} className="relative inline-block" data-unique-id="ffd73c90-69c9-4c30-91d4-ed8539e04359" data-loc="434:24-439:25" data-file-name="app/page.tsx">
-                          M
+                          💫
                           <motion.span className="absolute -top-6 -right-2 text-yellow-300 text-2xl" animate={{
                         y: [0, -10, 0],
                         rotate: [0, 5, 0, -5, 0],
@@ -460,7 +460,7 @@ export default function HomePage() {
                       delay: 0.6,
                       duration: 0.5
                     }} data-unique-id="bba8785e-6ecb-472f-ae53-f5cc80640d4c" data-loc="457:24-461:25" data-file-name="app/page.tsx">
-                          Niam
+                          X-Jaga
                         </motion.span>{" "}
                         <motion.span initial={{
                       opacity: 0
@@ -470,7 +470,7 @@ export default function HomePage() {
                       delay: 0.9,
                       duration: 0.5
                     }} className="relative inline-block" data-unique-id="75ea37ad-d46f-4b70-adf6-740ba3bbaa70" data-loc="464:24-469:25" data-file-name="app/page.tsx">
-                          (X-Jaga Dev)
+                          Dev
                           <motion.span className="absolute -top-6 -right-2 text-yellow-300 text-2xl" animate={{
                         y: [0, -10, 0],
                         rotate: [0, -5, 0, 5, 0],
@@ -521,8 +521,8 @@ export default function HomePage() {
                   delay: 1.5
                 }} data-unique-id="3ad1d523-57f8-4121-b88a-0c292c4f0089" data-loc="507:20-522:21" data-file-name="app/page.tsx">
                       <InfoBlock onClick={() => handleInfoClick({
-                    title: "Welcome to My Interactive CV!",
-                    content: "I'm Mahfudun Niam, a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users. My background in game design influences my approach to all digital products - making them intuitive, enjoyable, and memorable. Navigate through the levels to discover my journey!",
+                    title: "Welcome to My Interactive Profil",
+                    content: "I'm Mahfudun Niam, a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users.",
                     icon: levels[currentLevel].icon
                   })} />
                     </motion.div>
