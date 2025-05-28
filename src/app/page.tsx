@@ -117,53 +117,53 @@ const cvData = {
 // Define level data
 const levels = [{
   id: "intro",
-  title: "Welcome to My World",
+  title: "Welcome to my page",
   bgColor: "bg-blue-500",
   content: "intro",
   description: "I'm Mahfudun Niam, a Creative UI/UX Designer and Developer specializing in interactive experiences. Explore my journey through this gamified portfolio!",
-  icon: "🎮"
+  icon: "🤭"
 }, {
   id: "education",
   title: "Education Achievements",
   bgColor: "bg-green-600",
   content: "education",
-  description: "My academic journey through digital design and interactive media. Each block represents a milestone in my learning path.",
+  description: "Nothing interesting, I'm not a scholar ",
   icon: "🎓"
 }, {
   id: "experience",
   title: "Career Adventures",
   bgColor: "bg-yellow-600",
   content: "experience",
-  description: "Professional experiences where I've applied my skills to create engaging digital experiences. Each role has been a unique quest!",
+  description: "Professional experiences where I've applied my skills to create engaging digital experiences. ",
   icon: "💼"
 }, {
   id: "skills",
   title: "Power-Up Skills",
   bgColor: "bg-red-600",
   content: "skills",
-  description: "The tools and technologies I've mastered along my journey. Collect them all to see my complete skill set!",
+  description: "The tools and technologies I've mastered along my journey. Collect them all to see my complete skill set The tools and technologies I've mastered along my journey. Collect them all to see my complete skill set!Alat dan teknologi yang saya kuasai sepanjang perjalanan saya. Kumpulkan semuanya untuk melihat keahlian saya yang lengkap. Alat dan teknologi yang saya kuasai sepanjang perjalanan saya. Kumpulkan semuanya untuk melihat keahlian saya yang lengkap. ",
   icon: "⚡"
 }, {
   id: "portfolio",
   title: "Project Gallery",
   bgColor: "bg-purple-600",
   content: "portfolio",
-  description: "Featured projects that showcase my creativity and technical abilities. Each one represents a challenge conquered!",
-  icon: "🏆"
+  description: "Featured projects that showcase my creativity and technical abilities. Each one represents a challenge conquered!Proyek unggulan yang memamerkan kreativitas dan kemampuan teknis saya.",A feature project that showcases my creativity and technical abilities.",
+  icon: "🧑‍💻"
 }, {
   id: "achievements",
-  title: "Achievement Unlocked",
+  title: "connect with me",
   bgColor: "bg-amber-500",
   content: "achievements",
-  description: "Awards, recognitions, and special moments that mark significant accomplishments in my professional journey.",
-  icon: "🌟"
+  description: "let's be friends through social media.",
+  icon: "🫂"
 }, {
   id: "contact",
-  title: "Connect With Me",
+  title: "Thank You",
   bgColor: "bg-emerald-600",
-  content: "contact",
-  description: "Ready to collaborate? Reach out through any of these channels and let's create something amazing together!",
-  icon: "📫"
+  content: "Thank You",
+  description: "Thank you for coming here, I look forward to hearing good news from you.",
+  icon: "😇"
 }];
 export default function HomePage() {
   const [currentLevel, setCurrentLevel] = useState(0);
@@ -492,7 +492,7 @@ export default function HomePage() {
                       delay: 1.0,
                       duration: 0.5
                     }} data-unique-id="7c6bf16e-6ef0-4d1c-89ae-2de2f59ec1d1" data-loc="488:24-492:25" data-file-name="app/page.tsx">
-                          iam
+                          ☕☕
                         </motion.span>
                       </h1>
                       
@@ -522,7 +522,7 @@ export default function HomePage() {
                 }} data-unique-id="3ad1d523-57f8-4121-b88a-0c292c4f0089" data-loc="507:20-522:21" data-file-name="app/page.tsx">
                       <InfoBlock onClick={() => handleInfoClick({
                     title: "Welcome to My Interactive Profil",
-                    content: "I'm Mahfudun Niam, a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users.",
+                    content: "I'm Mahfudun Niam, a Creative UI/UX Designer with a passion for building engaging digital experiences. I combine artistic vision with technical skills to create interfaces that delight users.Explore each level to discover my journey!.",
                     icon: levels[currentLevel].icon
                   })} />
                     </motion.div>
